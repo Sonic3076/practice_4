@@ -1,4 +1,9 @@
 include<iostream>
 
 using namespace std;
-cout<<"lopatin"
+int main(){
+
+cout<<"lopatin";
+
+return 0;
+}
