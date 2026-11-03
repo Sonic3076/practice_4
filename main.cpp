@@ -20,3 +20,15 @@ int main() {
     }
     double avg = sum / n;
     cout << "Середнє арифметичне: " << avg << endl;
+
+      int minVal = numbers[0];
+
+    int maxVal = numbers[0];
+
+    for (int i = 1; i < n; i++) {
+
+        if (numbers[i] < minVal) minVal = numbers[i];
+        if (numbers[i] > maxVal) maxVal = numbers[i];
+
+    }
+    cout << "2. Мінімум: git add main.cpp " << minVal << ", Максимум: " << maxVal << endl;
