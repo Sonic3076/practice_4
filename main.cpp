@@ -31,4 +31,4 @@ int main() {
         if (numbers[i] > maxVal) maxVal = numbers[i];
 
     }
-    cout << "2. Мінімум: " << minVal << ", Максимум: " << maxVal << endl;
+    cout << "Мінімум: " << minVal << " Максимум: " << maxVal << endl;
